@@ -1,4 +1,4 @@
-.body {
+#page-top {
     font-family: "Raleway", sans-serif;
 }
 .right {
@@ -7,8 +7,7 @@
 .teal {
     background-color: #a1f7f7 !important;
 }
-.white {
-    background-color: whitesmoke;
+.teal-text {
     color: #11d4d4 !important;
 }
 .body-font {
