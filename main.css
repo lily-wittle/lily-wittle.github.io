@@ -1,34 +1,59 @@
 #page-top {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway';
 }
 .right {
     float: right !important;
 }
-.teal {
-    background-color: #a1f7f7 !important;
-}
 .teal-text {
     color: #11d4d4 !important;
 }
+.teal-text:hover {
+    color: #b8f9f9 !important;
+}
+.link-color {
+    font-family: 'Raleway';
+    color: #353535;
+}
+.link-color:hover {
+    color: #11d4d4;
+    text-decoration: none !important;
+}
 .body-font {
     font-size: 18;
+    color: #353535;
+}
+.center {
+    text-align: center;
 }
 .heading {
-    text-align: center;
+    font-family: 'Cherry Swash', serif;
+    font-size: 34;
+}
+.subheading {
+    color: grey;
 }
 .intro {
     height: 100%;
     padding-top: 250px;
     text-align: left;
-    background-color: #a1f7f7;
-    background-image: url(IMG_3355.png);
+    background-image: url(IMG.jpg);
     background-position: right 75px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.resume {
-    height: 100%;
+.intro-font {
+    font-size: 18;
+    color: whitesmoke;
+}
+.white-section {
+    height: auto;
     padding-top: 50px;
     text-align: left;
     background-color: whitesmoke;
+}
+.teal-section {
+    height: auto;
+    padding-top: 50px;
+    text-align: left;
+    background-color: #b8f9f9;
 }
