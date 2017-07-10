@@ -8,10 +8,19 @@
     color: #11d4d4 !important;
 }
 .teal-text:hover {
-    color: #a1f7f7 !important;
+    color: #b8f9f9 !important;
+}
+.link-color {
+    font-family: 'Raleway';
+    color: #353535;
+}
+.link-color:hover {
+    color: #11d4d4;
+    text-decoration: none !important;
 }
 .body-font {
     font-size: 18;
+    color: #353535;
 }
 .center {
     text-align: center;
@@ -31,6 +40,9 @@
     background-position: right 75px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.intro-font {
+    font-size: 18;
     color: whitesmoke;
 }
 .white-section {
@@ -43,5 +55,5 @@
     height: auto;
     padding-top: 50px;
     text-align: left;
-    background-color: #a1f7f7;
+    background-color: #b8f9f9;
 }
