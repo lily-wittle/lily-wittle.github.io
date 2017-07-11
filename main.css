@@ -4,6 +4,20 @@
 .right {
     float: right !important;
 }
+.center {
+    text-align: center;
+}
+.heading {
+    font-family: 'Cherry Swash', serif;
+    font-size: 34;
+}
+.subheading {
+    color: grey;
+}
+.body-font {
+    font-size: 18;
+    color: #353535;
+}
 .teal-text {
     color: #11d4d4 !important;
 }
@@ -18,25 +32,11 @@
     color: #11d4d4;
     text-decoration: none !important;
 }
-.body-font {
-    font-size: 18;
-    color: #353535;
-}
-.center {
-    text-align: center;
-}
-.heading {
-    font-family: 'Cherry Swash', serif;
-    font-size: 34;
-}
-.subheading {
-    color: grey;
-}
 .intro {
     height: 100%;
     padding-top: 250px;
     text-align: left;
-    background-image: url(IMG.jpg);
+    background-image: url(photos/IMG.jpg);
     background-position: right 75px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,4 +56,9 @@
     padding-top: 50px;
     text-align: left;
     background-color: #b8f9f9;
+}
+.item {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
