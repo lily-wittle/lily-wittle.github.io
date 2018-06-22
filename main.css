@@ -12,9 +12,18 @@
     font-family: 'Raleway' !important;
 }
 .medium {
-    font-size: 24 !important;
+    font-size: .6em !important;
 }
-.head2,.head3 {
+.large {
+    font-size: .8em !important;
+}
+body {
+    font-size: 100%;
+}
+h2,h3,h5 {
     font-family: 'Raleway Dots' !important;
     color: #13DAEC !important;
+}
+h4,h6 {
+    font-family: 'Raleway Dots' !important;
 }
