@@ -6,7 +6,7 @@
 }
 .link-color:hover {
     color: #13DAEC;
-    text-decoration: none !important;
+    text-decoration: none;
 }
 .text {
     font-family: 'Raleway' !important;
@@ -20,10 +20,9 @@
 body {
     font-size: 100%;
 }
-h2,h3,h5 {
+h2,h3,h4,h5,h6 {
     font-family: 'Raleway Dots' !important;
-    color: #13DAEC !important;
 }
-h4,h6 {
-    font-family: 'Raleway Dots' !important;
+h2,h3 {
+    color: #13DAEC !important;
 }
