@@ -1,28 +1,57 @@
 .center {
     text-align: center;
 }
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
 .link-color {
     color: #eee;
 }
+
 .link-color:hover {
     color: #13DAEC;
     text-decoration: none;
 }
+
+.opaque {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.test {
+    opacity: 1 !important;
+}
+
 .text {
     font-family: 'Raleway' !important;
 }
+
 .medium {
     font-size: .6em !important;
 }
+
 .large {
     font-size: .8em !important;
 }
+
 body {
     font-size: 100%;
 }
-h2,h3,h4,h5,h6 {
+
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Raleway Dots' !important;
 }
-h2,h3 {
+
+h2,
+h3 {
     color: #13DAEC !important;
 }
