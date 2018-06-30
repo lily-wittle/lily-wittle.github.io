@@ -1,15 +1,3 @@
-.center {
-    text-align: center;
-}
-
-.right {
-    float: right;
-}
-
-.left {
-    float: left;
-}
-
 .link-color {
     color: #eee;
 }
@@ -21,10 +9,6 @@
 
 .opaque {
     background-color: rgba(0, 0, 0, 0.7);
-}
-
-.test {
-    opacity: 1 !important;
 }
 
 .text {
