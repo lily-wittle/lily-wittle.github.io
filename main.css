@@ -28,14 +28,13 @@ body {
 }
 
 h2,
-h3,
+h3 {
+    font-family: 'Josefin Slab' !important;
+    color: #13DAEC !important;
+}
+
 h4,
 h5,
 h6 {
-    font-family: 'Raleway Dots' !important;
-}
-
-h2,
-h3 {
-    color: #13DAEC !important;
+    font-family: 'Raleway' !important;
 }
