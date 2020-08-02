@@ -1,0 +1,60 @@
+.raleway {
+    font-family: 'Raleway';
+}
+
+.header {
+    font-family: 'Josefin Slab';
+    color: #13daec;
+}
+
+.hidden {
+    display: none;
+}
+
+.button {
+    background-color: white;
+    border: 2px solid #d0f8fb;
+    border-radius: 8px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #d0f8fb;
+}
+
+.light-bg {
+    background-color: #d0f8fb;
+}
+
+.padded {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.border {
+    padding: 5px;
+}
+
+.team-name-label {
+    display: inline-block;
+    width: 110px;
+}
+
+.score-label {
+    display: inline-block;
+    width: 200px;
+}
+
+.error {
+    color: red;
+}

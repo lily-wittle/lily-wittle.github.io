@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <title>Cornhole Score Keeper</title>
+    <link href="cornhole.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Josefin+Slab" rel="stylesheet">
+</head>
+
+<body class="border">
+    <div class="light-bg padded">
+        <h1 class="header">Cornhole Score Keeper</h1>
+    </div>
+    <br>
+    <div id="teamNames">
+        <label class="team-name-label raleway" for="teamOne">Team 1 name:</label>
+        <input class="raleway" type="text" id="teamOne" name="teamOne">
+        <br>
+        <label class="team-name-label raleway" for="teamTwo">Team 2 name:</label>
+        <input class="raleway" type="text" id="teamTwo" name="teamTwo">
+        <br><br>
+        <button class="button raleway" onclick="startGame()">Start Game</button>
+    </div>
+    <div class="hidden light-bg padded" id="score">
+        <h2 class="header" id="scoreTitle"></h2>
+        <p class="raleway" id="teamOneCurrentScore"></p>
+        <p class="raleway" id="teamTwoCurrentScore"></p>
+    </div>
+    <div class="hidden" id="gameOver">
+        <h3 class="header" id="winner"></h3>
+        <button class="button raleway" onclick="startGame()">Play Again</button>
+    </div>
+    <div class="hidden" id="roundEntry">
+        <h2 class="header" id="roundNumber"></h2>
+        <p class="raleway" id="throwsFirst"></p>
+        <h3 class="header" id="teamOneScore"></h3>
+        <label class="score-label raleway" for="teamOneHole">Number of bags in hole:</label>
+        <input class="raleway" type="number" id="teamOneHole" name="teamOneHole" min="0" max="4">
+        <br>
+        <label class="score-label raleway" for="teamOneBoard">Number of bags on board:</label>
+        <input class="raleway" type="number" id="teamOneBoard" name="teamOneBoard" min="0" max="4">
+        <br>
+        <h3 class="header" id="teamTwoScore"></h3>
+        <label class="score-label raleway" for="teamTwoHole">Number of bags in hole:</label>
+        <input class="raleway" type="number" id="teamTwoHole" name="teamTwoHole" min="0" max="4">
+        <br>
+        <label class="score-label raleway" for="teamTwoBoard">Number of bags on board:</label>
+        <input class="raleway" type="number" id="teamTwoBoard" name="teamTwoBoard" min="0" max="4">
+        <br><br>
+        <button class="button raleway" onclick="finishRound()">Next Round</button>
+        <p class="raleway error" id="error"></p>
+    </div>
+</body>
+
+<script src="cornhole.js"></script>
+
+</html>
