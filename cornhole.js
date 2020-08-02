@@ -11,7 +11,9 @@ function startGame() {
     teamOneScore = 0;
     teamTwoScore = 0;
 
-    document.getElementById("scoreTitle").textContent = "Current Score"
+    document.getElementById("gameOver").style.display = "none";
+
+    document.getElementById("scoreTitle").textContent = "Current Score";
     teamOneName = document.getElementById("teamOne").value;
     teamTwoName = document.getElementById("teamTwo").value;
     document.getElementById("teamNames").style.display = "none";
